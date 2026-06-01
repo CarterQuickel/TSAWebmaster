@@ -1,0 +1,65 @@
+# Node
+node_modules/
+**/node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime files
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage and build outputs
+coverage/
+dist/
+build/
+out/
+.vite/
+.vite/deps/
+
+# Vite / tooling cache
+.cache/
+.parcel-cache/
+
+# SQLite and database files
+*.sqlite
+*.sqlite3
+backend/db/
+db/
+
+# Environment files
+.env
+.env.*.local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+Icon?
+
+# IDEs and editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Misc
+*.tgz
+*.log
+*.tmp
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
