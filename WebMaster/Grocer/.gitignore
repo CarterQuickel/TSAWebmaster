@@ -2,7 +2,12 @@
 node_modules/
 **/node_modules/
 
-db/**
+data/
+database/
+*.db
+*.sqlite
+*.sqlite3
+backend/db/
 
 # Logs
 logs
